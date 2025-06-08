@@ -1,0 +1,108 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+  color: #333;
+}
+
+nav {
+  background-color: #f8bbd0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #880e4f;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #880e4f;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #fce4ec;
+  color: #d81b60;
+  transform: scale(1.05);
+}
+
+h1 {
+  text-align: center;
+  color: #ad1457;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.plant-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.plant-card {
+  background-color: #ffffff;
+  width: 250px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(136, 14, 79, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.plant-card:hover {
+  transform: scale(1.05);
+}
+
+.plant-card img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+}
+
+.plant-card h3 {
+  margin: 10px 0 5px;
+  color: #880e4f;
+}
+
+.plant-card p {
+  margin: 0;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+
+.add-cart-btn {
+  background-color: #ec407a;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-top: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.add-cart-btn:hover {
+  background-color: #c2185b;
+  transform: scale(1.05);
+}

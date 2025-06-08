@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Indoor Plants - BloomNest</title>
+  <link rel="stylesheet" href="indoor.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">BloomNest</div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="products-container">
+    <h1>Indoor Plants</h1>
+<div class="plant-grid">
+  <div class="plant-card">
+    <img src="snake.jpg" alt="Snake Plant">
+    <h3>Snake Plant</h3>
+     <p>₹299</p>
+    <p>A snake plant is a common houseplant with evergreen sword-shaped leaves that grow upright.</p>
+    <button class="add-cart-btn" onclick="addToCart('Snake Plant')">Add to Cart</button>
+  </div>
+  <div class="plant-card">
+    <img src="peace.jpg" alt="Peace Lily">
+    <h3>Peace Lily</h3>
+    <p>₹349</p>
+    <p>Peace lilies, also known as Spathiphyllum, are evergreen herbaceous perennial plants with large leaves. </p>
+    <button class="add-cart-btn" onclick="addToCart('Peace lily')">Add to Cart</button>
+  </div>
+  <div class="plant-card">
+    <img src="zz.jpg" alt="ZZ Plant">
+    <h3>ZZ Plant</h3>
+    <p>₹399</p>
+    <p>Having greenery near your sleeping area is known to reduce stress, anxiety, and depressive thoughts. </p>
+    <button class="add-cart-btn" onclick="addToCart('ZZ plant')">Add to Cart</button>
+  </div>
+</div>
+  </main>
+  <script>
+    function addToCart(plantName) {
+      alert(plantName + "has been added to your cart!")
+    }
+  </script>
+</body>
+</html>

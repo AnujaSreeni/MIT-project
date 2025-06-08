@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Outdoor Plants - BloomNest</title>
+  <link rel="stylesheet" href="outdoor.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">BloomNest</div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="products-container">
+    <h1>Outdoor Plants</h1>
+<div class="plant-grid">
+  <div class="plant-card">
+    <img src="golden.jpg" alt="golden">
+    <h3>Pleomele</h3>
+    <p>₹299</p>
+    <p>Pleomele is a tree native to Madagascar, Mozambique and other islands of the Indian Ocean. It’s an ornamental plant loved for its evergreen leaves and thick stems. </p>
+    <button class="add-cart-btn" onclick="addToCart('Pleomele')">Add to Cart</button>
+  </div>
+  <div class="plant-card">
+    <img src="lemon.jpg" alt="lemon">
+    <h3>Lemon Cypress</h3>
+    <p>₹349</p>
+    <p>It is characterized by its vibrant yellow-green, needle-like foliage and emits a strong lemon scent when brushed or crushed. </p>
+    <button class="add-cart-btn" onclick="addToCart('Lemon Cypress')">Add to Cart</button>
+  </div>
+  <div class="plant-card">
+    <img src="plantain.jpg" alt="">
+    <h3>Plantain Lily</h3>
+    <p>₹399</p>
+    <p>Plantain lily is an herbaceous perennial in the Asparagaceae family, native to China. Its leaves are whiteish when opening and they look almost like lilies. </p>
+    <button class="add-cart-btn" onclick="addToCart('Plantain Lily')">Add to Cart</button>
+  </div>
+</div>
+  </main>
+  <script>
+    function addToCart(plantName) {
+      alert(plantName + "has been added to your cart!")
+    }
+  </script>
+</body>
+</html>
